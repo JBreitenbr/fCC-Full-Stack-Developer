@@ -1,0 +1,13 @@
+console.log("Hello! I'm your coding fun fact guide!");
+let botName,botLocation,favoriteLanguage;
+botName="Julia";
+botLocation="Earth";
+favoriteLanguage="Python";
+console.log("My name is "+botName+" and I live on "+botLocation+"." );
+console.log("My favorite programming language is "+favoriteLanguage+".");
+let codingFact=favoriteLanguage +" was invented by Guido van Rossum.";
+console.log(codingFact);
+codingFact=favoriteLanguage+" is ideal for beginners.";
+console.log(codingFact);
+codingFact=favoriteLanguage+" can be applied to a variety of fields.";
+console.log(codingFact);
