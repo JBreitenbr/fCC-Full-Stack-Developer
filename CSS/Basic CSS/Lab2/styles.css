@@ -1,0 +1,30 @@
+body {
+background-color: papayawhip;
+font-family:"Arial",sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+.todo-list {
+  list-style-type: none;
+}
+.todo {
+ margin: 3px auto; background-color:#aacccc;
+  border-radius:10px;
+}
+a {
+text-decoration: none;
+}
+a:hover {
+  color:lime;
+}
+a:active {
+  color:tomato;
+}
+a:visited {
+  color:darksalmon;
+}
+a:focus { 
+  outline: #fa0 solid 2px; 
+}
