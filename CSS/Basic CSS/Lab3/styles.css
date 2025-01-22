@@ -1,0 +1,35 @@
+.blog-post-card {
+  border-radius: 5%;
+  background-color: white;
+  width: 85vw;
+  text-align: center;
+}
+
+.post-content {
+  padding: 20px;
+}
+.read-more {
+  background-color: cornflowerblue;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.read-more:hover {
+  color: darksalmon;
+  background-color: papayawhip;
+}
+
+.post-img {
+  width:100%;
+  border-bottom: 2px dashed darkgrey;
+}
+
+.post-title,.post-excerpt {
+  margin: 5%;
+  color: navy;
+}
+
+
+
