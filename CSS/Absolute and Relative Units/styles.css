@@ -1,0 +1,17 @@
+body {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 100vw;
+  min-height: calc(100vh - 100px);
+}
+
+section {
+  width:82%;
+}
+
+hr {
+  width: 95%;
+}
+
+
+
