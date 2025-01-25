@@ -1,0 +1,31 @@
+input:focus,textarea:focus{
+  border-color: lime;
+}
+
+input:invalid,select:invalid,textarea:invalid{
+  border-color: red;
+}
+
+input:valid,select:valid,textarea:valid{
+  border-color: green;
+}
+
+button:hover {
+  background-color: dodgerblue;
+}
+.radio-group input[type="radio"]:checked{
+  border-color: darksalmon;
+  background-color: papayawhip;
+  box-shadow: 2px 3px #888;
+}
+input[type="radio"]:checked+label {
+    color: #f00;
+    }
+
+input:nth-child(1) {
+  background-color: beige;
+  border-radius: 10px;
+}
+
+
+
