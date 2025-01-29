@@ -215,9 +215,7 @@ playersDropdownList.addEventListener("change", (e) => {
         players.filter((player) => player.position === "defender")
       );
       break;
-
-
-
-
+    case "default":
+      setPlayerCards();
   }
 });
