@@ -1,0 +1,25 @@
+body,#wrapper{
+  background-color:papayawhip;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+#hook {
+  text-align:center;
+  text-transform: uppercase;
+}
+
+#ent {
+text-align: center;
+} 
+
+#output {
+  margin:5%;
+  padding:5%;
+  width:42%;
+  border:1px solid darkred;
+  background-color:#f3f3f3;
+  border-radius: 10px;
+}
+
