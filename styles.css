@@ -1,7 +1,9 @@
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.done {
+  background-color: lightgreen;
 }
+
+.todo {
+  background-color: salmon;
+}
+
   
