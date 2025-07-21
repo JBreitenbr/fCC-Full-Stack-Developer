@@ -45,7 +45,7 @@ export const OTPGenerator = () => {
         }
     }, [])
   
-  const timer = count !== null ? `Expires in ${count}: seconds` : ""
+  const timer = count !== null ? `Expires in: ${count} seconds` : ""
   
   return (
     <div className="container">
@@ -56,7 +56,7 @@ export const OTPGenerator = () => {
         onClick={generatePassword}
         disabled={isButtonDisabled}
       >Generate OTP</button>
-      {count !==null && <p id="otp-timer">{timer}</p>}{showMessage && <p id="otp-timer"></p>OTP expired. Click the button to generate a new OTP.</p>}
+      {count !==null && <p id="otp-timer">{timer}</p>}{showMessage && <p id="otp-timer">OTP expired. Click the button to generate a new OTP.</p>}
     </div>
   )
 };
